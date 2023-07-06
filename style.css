@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+a{
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 0 30px;
+    color: #F6F4F1;
+    margin-top: 30px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+    background-color: rgb(173, 35, 173);
+    background: linear-gradient(to right,rgb(173,35,173),rgb(82, 82, 243));
+    height: 210px;
+    width: 100%;
+}
+footer{
+    background-color: rgb(173, 35, 173);
+    height: 100px;
+    background: linear-gradient(to right,rgb(173,35,173),rgb(82,82,243));
+    position: relative;
+    top: -20px;
+}
+.second{
+    display: flex;
+}
+.two{
+    width: 350px;
+    height: 350px;
+    background-image: url(phoebe.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 500px;
+    position: relative;
+    top: 25px;
+    
+    
+
+}
+.one{
+   margin-top: 40px; 
+   padding-left: 100px;
+   height: 250px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-size: x-large;
+   line-height: 30px;
+   color: rgb(173, 35, 173);
+
+}
+.second{
+    background-color: #F6F4F1;
+}
+.contact{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    top: 40px;
+    left: 20px;
+    color: #F6F4F1;
+    font-size: large;
+}
+.first{
+    font-size: larger;
+}
+a:hover{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgb(82, 82, 243);
+}
+@media screen and(max-width: 600px){
+    footer{
+        margin-top: 10px;
+    }
+}
